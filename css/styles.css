@@ -1,0 +1,328 @@
+body {
+  background-color: #D1A193;
+  font-family: "Source Serif Pro";
+  color: #f5e4dc;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.s-text {
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 4px;
+}
+
+.s-text-margin {
+  max-width: 800px;
+}
+
+.sentence {
+  text-align: center;
+}
+
+.colorB{
+  color: #ead9d1;
+}
+
+.m-text {
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 1.2;
+  letter-spacing: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Title & Header Image */
+.cursive {
+  font-family: "Alex Brush";
+  font-weight: normal;
+  font-size: 60px;
+  margin: 16px 0;
+}
+
+.width-img {
+  width: 15%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.resizeM {
+  width: 60em;
+  text-align: center;
+}
+
+/* NAVBAR SECTION */
+.navbar {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.navbar-brand {
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 100;
+}
+
+.nav-text {
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 8px 8px 6px;
+}
+
+.navbar .nav-item a {
+  border-bottom: 3px solid transparent;
+}
+
+.navbar .nav-item a:hover {
+  border-bottom: 3px solid #f5e4dc;
+}
+
+.navbar .nav-item a:active {
+  border-bottom: 3px solid #f5e4dc;
+}
+
+/* COVER IMAGE */
+.wedding-cover {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* SECOND HALF */
+.second-half {
+  padding-top: 16px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/* THE TWO SIGNS BELOW THE PICTURE */
+.sign {
+  line-height: 1.3;
+  font-family: "Source Serif Pro";
+  font-size: 42px;
+  font-weight: 300;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+/* HOLDS THE TWO SIGNS */
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.center-aligned {
+  align-items: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex-container-column {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 200px;
+  letter-spacing: 3.4px;
+  padding-top: 10px;
+}
+
+#wrapper-one-one {
+  border-bottom: 1px solid #f5e4dc;
+  padding: 0 20px 0;
+}
+
+#wrapper-two-two {
+  padding: 15px 36px 0;
+}
+
+#wrapper-one {
+  border-bottom: 1px solid #f5e4dc;
+  padding: 0 20px 0;
+}
+
+#wrapper-two {
+  padding: 0 36px 0;
+}
+
+.image {
+  width: 100%;
+}
+
+.flex-itemm {
+  width: 100%;
+  margin-left: 40px;
+}
+
+.whole-Page {
+  position: relative;
+}
+
+.navbar-brand {
+  text-align: center;
+}
+
+.abs-title {
+  padding-top: 14px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-weight: 300;
+  font-size: calc(32px * 0.75);
+  letter-spacing: .7px;
+}
+
+.rsvp-button {
+  padding: 30px;
+}
+
+.picture-section {
+  max-width: 100%;
+  height: auto;
+}
+
+.resize {
+  max-width: 30em;
+  margin: 10px;
+}
+
+.engagementPhotos-wrap {
+  flex-wrap: wrap;
+  margin: 0 auto 0;
+}
+
+.cardQA {
+  width: 25rem;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+
+.flex-container{
+  text-align: center;
+  align-items: center;
+}
+
+@media (min-width: 640px) {
+  #wrapper-one {
+    border-bottom: none;
+    border-right: 0.0625rem solid #f5e4dc;
+  }
+}
+
+@media (max-width: 640px) {
+  .cursive {
+    font-size: calc(60px * .75);
+  }
+
+  .c-text {
+    font-size: calc(20px * .75);
+  }
+
+  .s-text {
+    font-size: calc(20px * .75);
+  }
+
+  .sign {
+    flex-direction: column;
+    margin: 20px auto;
+    width: 200px;
+    letter-spacing: 3.4px;
+    font-size: calc(30px * .75);
+  }
+
+  #wrapper-two {
+    padding: 20px 36px 0;
+  }
+
+  .bridespeeps {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #f5e4dc;
+}
+
+.navbar-light .navbar-toggler {
+    color: #f5e4dc;
+    border-color: #f5e4dc;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding-top: .6rem;
+    padding-bottom: .4rem;
+  }
+
+  .wedding-cover {
+    width: 100%;
+  }
+
+  .fixed-class {
+    display: none;
+    position: fixed;
+  }
+
+  .cover-img {
+    display: none;
+  }
+
+  .navbar-toggler,
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(96,89,86, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+.nav > li > a:hover{
+    background-color: #f5e4dc;
+}
+
+
+@media (min-width: 768px) {
+  .fixed-class-phone {
+    display: none;
+  }
+
+  .cover-img-phone {
+    display: none;
+  }
+
+  .abs-title {
+    display: none;
+  }
+}
